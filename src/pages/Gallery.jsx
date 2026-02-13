@@ -2,7 +2,7 @@ const base = import.meta.env.BASE_URL;
 
 const galleryImages = [
   {
-    src: `${base}images/jallosh.jpg`,
+    src: `${base}images/Jallosh.jpg`,
     title: "Jallosh – Marathi Cinema & Theatre",
   },
   {
