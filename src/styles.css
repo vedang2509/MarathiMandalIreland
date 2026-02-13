@@ -16,13 +16,12 @@
 [data-theme="dark"] {
   --bg-color: #121212;
   --text-color: #eaeaea;
-  --card-bg: #1e1e1e;
-  --border-color: #333;
-  --primary-color: #c44;
+  --card-bg: #1c1c1c;
+  --border-color: #2a2a2a;
+  --primary-color: #d55;
   --footer-bg: #000;
   --footer-text: #bbb;
 }
-
 
 
 body {
@@ -737,4 +736,79 @@ p {
 .varshik-link:hover {
   background: #a30000;
   transform: translateY(-1px);
+}
+
+/* ================================
+   Phase 2 – Hero Upgrade
+   ================================ */
+
+.hero-tagline {
+  font-size: 1.1rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.95;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 0.55rem 1.1rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.secondary-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* ================================
+   Phase 2 – Page Transitions
+   ================================ */
+
+.page,
+.home-page,
+.about-page,
+.events-page,
+.blog-page,
+.gallery-page,
+.varshik-page,
+.contact-page {
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* ================================
+   Phase 2 – Section Separation
+   ================================ */
+
+.about-summary,
+.highlight-events,
+.community-invite {
+  padding-top: 2rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] .about-summary,
+[data-theme="dark"] .highlight-events,
+[data-theme="dark"] .community-invite {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
