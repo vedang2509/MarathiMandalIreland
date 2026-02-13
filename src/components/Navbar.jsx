@@ -7,7 +7,14 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="nav-container">
-        <div className="logo">Marathi Mandal Ireland</div>
+        <div className="logo">
+  <img
+    src={`${import.meta.env.BASE_URL}images/mmi-logo.png`}
+    alt="Marathi Mandal Ireland Logo"
+  />
+  <span>Marathi Mandal Ireland</span>
+</div>
+
 
         <button
           className="menu-toggle"
