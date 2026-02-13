@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="footer-section">
 <div className="footer-logo">
   <img
-    src={`${import.meta.env.BASE_URL}images/mmi-logo.png`}
+    src={`${import.meta.env.BASE_URL}images/MMI Logo.jpeg`}
     alt="Marathi Mandal Ireland Logo"
   />
   <h3>Marathi Mandal Ireland</h3>
