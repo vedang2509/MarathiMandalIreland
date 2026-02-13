@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import BlogPost from "./pages/BlogPost";
+import VarshikAnkReader from "./pages/VarshikAnkReader";
 
 
 import Home from './pages/Home'
@@ -25,6 +26,16 @@ export default function App() {
         <Route path="/varshik-ank" element={<VarshikAnk />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
+        <Route
+  path="/varshik-ank/2024"
+  element={<VarshikAnkReader pdfFile="MMI-Aabha-2024.pdf" />}
+/>
+
+<Route
+  path="/varshik-ank/2025"
+  element={<VarshikAnkReader pdfFile="MMI-Aabha-2025.pdf" />}
+/>
+
       </Routes>
       <Footer />
     </>
