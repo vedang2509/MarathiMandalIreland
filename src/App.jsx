@@ -1,6 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import BlogPost from "./pages/BlogPost";
+
 
 import Home from './pages/Home'
 import About from './pages/About'
@@ -22,6 +24,7 @@ export default function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/varshik-ank" element={<VarshikAnk />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
       </Routes>
       <Footer />
     </>
