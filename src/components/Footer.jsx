@@ -3,11 +3,19 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h3>Marathi Mandal Ireland</h3>
-          <p>
-            A non-profit community organisation bringing together people of
-            Marathi and Maharashtra background living in Ireland.
-          </p>
+<div className="footer-logo">
+  <img
+    src={`${import.meta.env.BASE_URL}images/mmi-logo.png`}
+    alt="Marathi Mandal Ireland Logo"
+  />
+  <h3>Marathi Mandal Ireland</h3>
+</div>
+
+<p>
+  A non-profit community organisation bringing together people of
+  Marathi and Maharashtra background living in Ireland.
+</p>
+
         </div>
 
         <div className="footer-section">
