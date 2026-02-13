@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import BlogPost from "./pages/BlogPost";
 import VarshikAnkReader from "./pages/VarshikAnkReader";
+import PaypalTest from "./pages/PaypalTest";
 
 
 import Home from './pages/Home'
