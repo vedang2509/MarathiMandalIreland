@@ -15,16 +15,47 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="highlight-events">
-        <h2>Upcoming Highlight</h2>
-        <div className="event-card">
-          <h3>Jallosh 2025</h3>
-          <p>A Celebration of Marathi Cinema and Theatre in Dublin.</p>
-          <p><strong>Date:</strong> 30th August 2025</p>
-          <p><strong>Venue:</strong> Church of Scientology & Community Centre, Firhouse Road, Dublin, D24</p>
-          {/* Optional: Add a register button later */}
-        </div>
-      </div>
+<div className="highlight-events">
+  <h2>Upcoming Highlight</h2>
+
+  <div className="event-card">
+    <h3>🏸 Badminton Tournament 2026</h3>
+
+    <p>
+      <strong>Marathi Mandal Ireland</strong> presents the <strong>5th Edition</strong> of our
+      annual Badminton Tournament. Whether you’re a pro or just love the game,
+      this is your chance to shine!
+    </p>
+
+    <p><strong>📅 Date:</strong> 15th March 2026</p>
+    <p><strong>⏰ Time:</strong> 9:00 AM onwards</p>
+    <p><strong>📍 Venue:</strong> Baldoyle Badminton Centre, D13 E8Y2</p>
+
+    <h4>Highlights</h4>
+    <ul>
+      <li>16 teams per category</li>
+      <li>Categories: Men’s Doubles (Advanced & Intermediate), Mixed Doubles</li>
+      <li>Quarter-finals added – 50% teams qualify</li>
+      <li>
+        Prize Money:
+        <ul>
+          <li>€100 – Winning pair (each category)</li>
+          <li>€60 – Runner-up pair (each category)</li>
+        </ul>
+      </li>
+    </ul>
+
+    <a
+      href="https://www.tickettailor.com/events/marathimandalireland1/2046923"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="varshik-link"
+    >
+      🎟️ Book Tickets Now →
+    </a>
+  </div>
+</div>
+
 
       <div className="community-invite">
         <h2>Join the Community</h2>
