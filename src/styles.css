@@ -79,3 +79,51 @@ body {
 .about-page li {
   margin-bottom: 0.5rem;
 }
+
+.events-page {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.events-page h1 {
+  color: #8b0000;
+  margin-bottom: 1rem;
+}
+
+.events-page h2 {
+  margin-top: 2rem;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.event-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.event-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.event-desc {
+  margin: 0.5rem 0 1rem;
+}
+
+.past-events {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.past-events li {
+  margin-bottom: 0.5rem;
+}
+
