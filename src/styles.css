@@ -606,3 +606,36 @@ body {
   color: white;
   margin-right: 0.5rem;
 }
+
+/* ================================
+   Footer compact view (Mobile)
+   ================================ */
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 1.5rem 1rem;
+    gap: 1.2rem;
+  }
+
+  .footer-section p {
+    margin: 0.4rem 0;
+    font-size: 0.9rem;
+  }
+
+  .footer-section ul {
+    margin: 0;
+  }
+
+  .footer-section li {
+    margin-bottom: 0.3rem;
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    padding: 0.6rem;
+    font-size: 0.75rem;
+  }
+}
