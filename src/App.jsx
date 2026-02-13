@@ -28,7 +28,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/varshik-ank/:year" element={<VarshikAnkReader />} />
-
+        <Route path="/paypal-test" element={<PaypalTest />} />
       </Routes>
       <Footer />
     </>
