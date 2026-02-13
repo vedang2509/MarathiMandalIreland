@@ -1,17 +1,19 @@
 const magazines = [
   {
+    year: "2025",
+    title: "आभा २०२५",
+    description:
+      "Marathi Mandal Ireland चा वार्षिक अंक – लेख, कविता, अनुभव आणि समुदायाच्या आठवणींचा संग्रह.",
+    readLink: "#/varshik-ank/2025",
+    pdfFile: "MMI-Aabha-2025.pdf",
+  },
+  {
     year: "2024",
     title: "आभा २०२४",
     description:
       "Marathi Mandal Ireland चा वार्षिक अंक – लेख, कविता, अनुभव आणि समुदायाच्या आठवणींचा संग्रह.",
-    link: "#", // later replace with actual PDF link
-  },
-  {
-    year: "2023",
-    title: "आभा २०२३",
-    description:
-      "आयर्लंडमधील मराठी समुदायाचे अनुभव, संस्कृती आणि सर्जनशील लेखन यांचा सुंदर संगम.",
-    link: "#",
+    readLink: "#/varshik-ank/2024",
+    pdfFile: "MMI-Aabha-2024.pdf",
   },
 ];
 
@@ -39,9 +41,21 @@ export default function VarshikAnk() {
             <h3>{mag.title}</h3>
             <p className="varshik-year">वर्ष: {mag.year}</p>
             <p>{mag.description}</p>
-            <a href={mag.link} className="varshik-link">
-              वाचा / Download →
-            </a>
+
+            <div style={{ marginTop: "0.8rem" }}>
+              <a href={mag.readLink} className="varshik-link">
+                📖 Read Online →
+              </a>
+              <br />
+              <a
+                href={`${import.meta.env.BASE_URL}magazines/${mag.pdfFile}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="varshik-link"
+              >
+                ⬇ Download PDF
+              </a>
+            </div>
           </div>
         ))}
       </div>
