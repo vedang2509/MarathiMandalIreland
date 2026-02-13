@@ -3,13 +3,14 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-container">
         <div className="footer-section">
-<div className="footer-logo">
+<a href="#/" className="footer-logo">
   <img
     src={`${import.meta.env.BASE_URL}images/MMI Logo.jpeg`}
     alt="Marathi Mandal Ireland Logo"
   />
   <h3>Marathi Mandal Ireland</h3>
-</div>
+</a>
+
 
 <p>
   A non-profit community organisation bringing together people of
