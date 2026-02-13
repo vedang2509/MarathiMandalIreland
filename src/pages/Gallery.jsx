@@ -1,26 +1,28 @@
+const base = import.meta.env.BASE_URL;
+
 const galleryImages = [
   {
-    src: "/images/Jallosh.jpg",
+    src: `${base}images/jallosh.jpg`,
     title: "Jallosh – Marathi Cinema & Theatre",
   },
   {
-    src: "/images/ganeshotsav.jpg",
+    src: `${base}images/ganeshotsav.jpg`,
     title: "Ganeshotsav Celebration",
   },
   {
-    src: "/images/badminton.jpeg",
+    src: `${base}images/badminton.jpeg`,
     title: "Badminton Tournament",
   },
   {
-    src: "/images/drawing.png",
+    src: `${base}images/drawing.png`,
     title: "Kids Drawing Competition",
   },
   {
-    src: "/images/community.jpeg",
+    src: `${base}images/community.jpeg`,
     title: "Community Gathering",
   },
   {
-    src: "/images/cultural.png",
+    src: `${base}images/cultural.png`,
     title: "Cultural Program",
   },
 ];
