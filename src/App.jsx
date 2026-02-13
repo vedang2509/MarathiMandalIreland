@@ -26,15 +26,7 @@ export default function App() {
         <Route path="/varshik-ank" element={<VarshikAnk />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
-        <Route
-  path="/varshik-ank/2024"
-  element={<VarshikAnkReader pdfFile="MMI-Aabha-2024.pdf" />}
-/>
-
-<Route
-  path="/varshik-ank/2025"
-  element={<VarshikAnkReader pdfFile="MMI-Aabha-2025.pdf" />}
-/>
+        <Route path="/varshik-ank/:year" element={<VarshikAnkReader />} />
 
       </Routes>
       <Footer />
