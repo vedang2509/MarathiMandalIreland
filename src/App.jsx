@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import BlogPost from "./pages/BlogPost";
 import VarshikAnkReader from "./pages/VarshikAnkReader";
-import PaypalTest from "./pages/PaypalTest";
+import TicketTailorTest from "./pages/TicketTailorTest";
 
 
 import Home from './pages/Home'
@@ -28,7 +28,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/varshik-ank/:year" element={<VarshikAnkReader />} />
-        <Route path="/paypal-test" element={<PaypalTest />} />
+        <Route path="/ticket-tailor-test" element={<TicketTailorTest />} />
       </Routes>
       <Footer />
     </>
