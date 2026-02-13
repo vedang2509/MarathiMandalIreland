@@ -7,13 +7,14 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="nav-container">
-        <div className="logo">
+<a href="#/" className="logo" onClick={() => setOpen(false)}>
   <img
     src={`${import.meta.env.BASE_URL}images/MMI Logo.jpeg`}
     alt="Marathi Mandal Ireland Logo"
   />
   <span>Marathi Mandal Ireland</span>
-</div>
+</a>
+
 
 
         <button
