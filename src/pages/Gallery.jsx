@@ -1,6 +1,6 @@
 const galleryImages = [
   {
-    src: "/images/jallosh.jpg",
+    src: "/images/Jallosh.jpg",
     title: "Jallosh – Marathi Cinema & Theatre",
   },
   {
@@ -8,19 +8,19 @@ const galleryImages = [
     title: "Ganeshotsav Celebration",
   },
   {
-    src: "/images/badminton.jpg",
+    src: "/images/badminton.jpeg",
     title: "Badminton Tournament",
   },
   {
-    src: "/images/drawing.jpg",
+    src: "/images/drawing.png",
     title: "Kids Drawing Competition",
   },
   {
-    src: "/images/community.jpg",
+    src: "/images/community.jpeg",
     title: "Community Gathering",
   },
   {
-    src: "/images/cultural.jpg",
+    src: "/images/cultural.png",
     title: "Cultural Program",
   },
 ];
