@@ -13,7 +13,7 @@ const pastEvents = [
     year: "2025",
   },
     {
-    title: "Jallosh 2024",
+    title: "Jallosh 2025",
     year: "2025",
   },
     {
