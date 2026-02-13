@@ -21,7 +21,7 @@ export default function TicketTailorTest() {
       >
         <iframe
           title="Ticket Tailor Checkout"
-          src="https://www.tickettailor.com/checkout/view-event/2046923/chk/"
+          src="https://www.tickettailor.com/events/marathimandalireland1/2046923"
           width="100%"
           height="100%"
           frameBorder="0"
