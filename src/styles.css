@@ -1,7 +1,35 @@
+/* ================================
+   THEME VARIABLES (LIGHT / DARK)
+   ================================ */
+
+:root {
+  --bg-color: #fafafa;
+  --text-color: #222;
+  --card-bg: #ffffff;
+  --border-color: #ddd;
+  --primary-color: #8b0000;
+  --footer-bg: #222;
+  --footer-text: #ddd;
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #eaeaea;
+  --card-bg: #1e1e1e;
+  --border-color: #333;
+  --primary-color: #c44;
+  --footer-bg: #000;
+  --footer-text: #bbb;
+}
+
+
+
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  background: #fafafa;
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 .nav {
   display: flex;
@@ -49,10 +77,10 @@ body {
 }
 
 .event-card {
-  border: 1px solid #ccc;
+  border: 1px solid var(--border-color);
   padding: 1.5rem;
   border-radius: 8px;
-  background: #fff;
+  background: var(--card-bg);
   margin-top: 1rem;
 }
 .about-page {
@@ -103,8 +131,8 @@ body {
 }
 
 .event-card {
-  background: #fff;
-  border: 1px solid #ddd;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 1.5rem;
 }
@@ -150,9 +178,9 @@ body {
 
 .blog-card {
   padding: 1.5rem;
-  border: 1px solid #ddd;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
-  background: #fff;
+  background: var(--card-bg);
 }
 
 .blog-card h2 {
@@ -200,8 +228,8 @@ body {
 .gallery-card {
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #ddd;
-  background: #fff;
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
   transition: transform 0.2s ease;
 }
 
@@ -249,10 +277,10 @@ body {
 }
 
 .varshik-card {
-  border: 1px solid #ddd;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 1.5rem;
-  background: #fff;
+  background: var(--card-bg);
 }
 
 .varshik-year {
@@ -291,10 +319,10 @@ body {
 }
 
 .contact-card {
-  border: 1px solid #ddd;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 1.5rem;
-  background: #fff;
+  background: var(--card-bg);
 }
 
 .contact-card h3 {
@@ -313,8 +341,8 @@ body {
 }
 
 .site-footer {
-  background: #222;
-  color: #ddd;
+  background: var(--footer-bg);
+  color: var(--footer-text);
   margin-top: 3rem;
 }
 
