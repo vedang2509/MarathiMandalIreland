@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="nav-container">
         <div className="logo">
   <img
-    src={`${import.meta.env.BASE_URL}images/mmi-logo.png`}
+    src={`${import.meta.env.BASE_URL}images/MMI Logo.jpeg`}
     alt="Marathi Mandal Ireland Logo"
   />
   <span>Marathi Mandal Ireland</span>
