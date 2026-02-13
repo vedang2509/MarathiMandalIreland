@@ -532,3 +532,27 @@ body {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
 }
+/* Header logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.logo img {
+  height: 36px;
+  width: auto;
+}
+
+/* Footer logo */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.8rem;
+}
+
+.footer-logo img {
+  height: 42px;
+  width: auto;
+}
