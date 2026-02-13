@@ -3,10 +3,18 @@ import CountdownTimer from "../components/CountdownTimer";
 export default function Home() {
   return (
     <section className="home-page">
-      <div className="hero-section">
-        <h1>Marathi Mandal Ireland</h1>
-        <p>A non-profit organisation of people of Marathi/Maharashtra background residing in Ireland, united in community, culture, and celebration.</p>
+    <div className="hero-section">
+      <h1>Marathi Mandal Ireland</h1>
+      <p className="hero-tagline">
+        Connecting Marathi hearts across Ireland through culture, community,
+        and celebrations.
+      </p>
+
+      <div className="hero-actions">
+        <a href="#/events" className="primary-btn">Upcoming Events</a>
+        <a href="#/contact" className="secondary-btn">Join the Community</a>
       </div>
+    </div>
 
       <div className="about-summary">
         <h2>About Us</h2>
