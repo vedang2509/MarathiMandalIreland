@@ -1,25 +1,23 @@
 const upcomingEvents = [
   {
-    title: "Jallosh 2025",
+    title: "Jallosh 2026",
     description: "A celebration of Marathi Cinema and Theatre",
-    date: "30 August 2025",
+    date: "30 August 2026",
     venue: "Church of Scientology & Community Centre, Firhouse Road, Dublin",
-  },
-  {
-    title: "Ganeshotsav 2025",
-    description: "Annual Ganesh festival celebration with cultural programs",
-    date: "September 2025",
-    venue: "Dublin (Venue to be announced)",
-  },
+  }
 ];
 
 const pastEvents = [
   {
     title: "Badminton Tournament",
-    year: "2024",
+    year: "2025",
   },
-  {
-    title: "Drawing Competition for Kids",
+    {
+    title: "Jallosh 2024",
+    year: "2025",
+  },
+    {
+    title: "Badminton Tournament",
     year: "2024",
   },
   {
