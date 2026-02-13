@@ -557,6 +557,14 @@ body {
   width: auto;
 }
 
-.logo:hover {
+/* Make logo links look clean */
+.logo,
+.footer-logo {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo:hover,
+.footer-logo:hover {
   opacity: 0.9;
 }
