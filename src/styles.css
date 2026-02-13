@@ -556,3 +556,7 @@ body {
   height: 42px;
   width: auto;
 }
+
+.logo:hover {
+  opacity: 0.9;
+}
