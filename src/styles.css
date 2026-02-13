@@ -670,3 +670,71 @@ body {
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
+
+/* ================================
+   Phase 1 – Card Polish
+   ================================ */
+
+.event-card,
+.blog-card,
+.gallery-card,
+.varshik-card,
+.contact-card {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event-card:hover,
+.blog-card:hover,
+.gallery-card:hover,
+.varshik-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+/* ================================
+   Phase 1 – Typography Polish
+   ================================ */
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.4px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 1.75;
+  margin-bottom: 0.6rem;
+}
+
+/* ================================
+   Phase 1 – Buttons
+   ================================ */
+
+.primary-btn,
+.varshik-link {
+  display: inline-block;
+  background: #8b0000;
+  color: white;
+  padding: 0.55rem 1.1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.primary-btn:hover,
+.varshik-link:hover {
+  background: #a30000;
+  transform: translateY(-1px);
+}
