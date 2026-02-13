@@ -1,9 +1,22 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import { useEffect } from "react";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  useEffect(() => {
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme) {
+    document.documentElement.setAttribute("data-theme", savedTheme);
+  }
+}, []);
 
+const toggleTheme = () => {
+  const current = document.documentElement.getAttribute("data-theme");
+  const next = current === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", next);
+  localStorage.setItem("theme", next);
+};
   return (
     <header className="site-header">
       <div className="nav-container">
@@ -24,6 +37,13 @@ export default function Navbar() {
         >
           ☰
         </button>
+        <button
+  className="theme-toggle"
+  onClick={toggleTheme}
+  aria-label="Toggle dark mode"
+>
+  🌙
+</button>
 
         <nav className={`nav-links ${open ? "open" : ""}`}>
           <NavLink to="/" onClick={() => setOpen(false)}>Home</NavLink>
