@@ -55,3 +55,27 @@ body {
   background: #fff;
   margin-top: 1rem;
 }
+.about-page {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.about-page h1 {
+  color: #8b0000;
+  margin-bottom: 1rem;
+}
+
+.about-page h2 {
+  margin-top: 2rem;
+  color: #333;
+}
+
+.about-page ul {
+  margin-left: 1.2rem;
+}
+
+.about-page li {
+  margin-bottom: 0.5rem;
+}
