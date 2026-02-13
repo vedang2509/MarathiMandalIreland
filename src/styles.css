@@ -267,3 +267,47 @@ body {
   font-weight: 500;
   text-decoration: none;
 }
+.contact-page {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.contact-page h1 {
+  color: #8b0000;
+  margin-bottom: 1rem;
+}
+
+.contact-intro {
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.contact-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: #fff;
+}
+
+.contact-card h3 {
+  margin-top: 0;
+}
+
+.contact-card a {
+  color: #8b0000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-note {
+  margin-top: 2.5rem;
+  color: #666;
+}
