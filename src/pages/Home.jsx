@@ -1,3 +1,5 @@
+import CountdownTimer from "../components/CountdownTimer";
+
 export default function Home() {
   return (
     <section className="home-page">
@@ -19,6 +21,8 @@ export default function Home() {
   <h2>Upcoming Highlight</h2>
 
   <div className="event-card">
+    <span className="badge">Limited Slots</span>
+
     <h3>🏸 Badminton Tournament 2026</h3>
 
     <p>
@@ -31,18 +35,15 @@ export default function Home() {
     <p><strong>⏰ Time:</strong> 9:00 AM onwards</p>
     <p><strong>📍 Venue:</strong> Baldoyle Badminton Centre, D13 E8Y2</p>
 
+    <h4>⏱️ Tournament starts in:</h4>
+    <CountdownTimer targetDate="2026-03-15T09:00:00" />
+
     <h4>Highlights</h4>
     <ul>
       <li>16 teams per category</li>
-      <li>Categories: Men’s Doubles (Advanced & Intermediate), Mixed Doubles</li>
+      <li>Men’s Doubles (Advanced & Intermediate), Mixed Doubles</li>
       <li>Quarter-finals added – 50% teams qualify</li>
-      <li>
-        Prize Money:
-        <ul>
-          <li>€100 – Winning pair (each category)</li>
-          <li>€60 – Runner-up pair (each category)</li>
-        </ul>
-      </li>
+      <li>Prize Money: €100 (Winners) · €60 (Runners-up)</li>
     </ul>
 
     <a
