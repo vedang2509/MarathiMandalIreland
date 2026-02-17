@@ -27,7 +27,7 @@ export default function PaypalTest() {
                   {
                     description: "MMI PayPal Test Payment",
                     amount: {
-                      value: "10.00",
+                      value: "0.01",
                     },
                   },
                 ],
