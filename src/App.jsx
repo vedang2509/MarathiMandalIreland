@@ -30,6 +30,7 @@ export default function App() {
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/varshik-ank/:year" element={<VarshikAnkReader />} />
         <Route path="/ticket-tailor-test" element={<TicketTailorTest />} />
+        <Route path="/paypal-test" element={<PaypalTest />} />
       </Routes>
       <Footer />
     </>
