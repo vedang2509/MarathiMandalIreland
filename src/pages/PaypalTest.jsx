@@ -15,7 +15,7 @@ export default function PaypalTest() {
       <div style={{ marginTop: "2rem", maxWidth: "400px" }}>
         <PayPalScriptProvider
           options={{
-            "client-id": "sb-kn9wk16957838@business.example.com",
+            "client-id": "Afrlr_fbIA7B4pRB4-C2LpJptKjLpZ7ZzjzACcJFNzCBJ106iHyFGxmiDz06DwYdFTQbUA4ctatdx80F",
             currency: "EUR",
           }}
         >
