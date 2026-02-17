@@ -4,7 +4,7 @@ export default function PaypalTest() {
   useEffect(() => {
     const script = document.createElement("script");
     script.src =
-      "https://www.paypal.com/sdk/js?client-id=YOUR_SANDBOX_CLIENT_ID&currency=EUR";
+      "https://www.paypal.com/sdk/js?client-id=sb-kn9wk16957838@business.example.com&currency=EUR";
     script.async = true;
     script.onload = () => {
       window.paypal.Buttons({
